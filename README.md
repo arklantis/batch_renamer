@@ -1,6 +1,18 @@
 # Batch Renamer – PyQt5 GUI Tool
 
-A lightweight, cross-platform GUI tool built with **Python + PyQt5** for batch renaming files. Designed for artists, designers, animators, or anyone needing to quickly and visually rename multiple files using custom patterns.
+A lightweight GUI tool to batch rename files using a customizable pattern.
+
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![PyQt5](https://img.shields.io/badge/PyQt5-5.15.11-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+---
+
+## 📦 Download
+
+▶️ [Download Windows .exe (v1.0)](https://github.com/arklantis/batch_renamer/releases/latest)
+
+> No installation required. Just download and run the executable.
 
 ---
 
@@ -15,11 +27,7 @@ A lightweight, cross-platform GUI tool built with **Python + PyQt5** for batch r
 
 ## 🚀 Getting Started
 
-### 🔹 Option 1: Run from source
-
 ```bash
-git clone https://github.com/your-username/batch-renamer.git
-cd batch-renamer
 pip install -r requirements.txt
 python batch_renamer_gui_starter.py
 ```

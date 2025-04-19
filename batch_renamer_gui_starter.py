@@ -4,18 +4,18 @@ from PyQt6.QtWidgets import *
 from PyQt6.QtCore import *
 # You'll need to make this ui in QtDesigner
 # And convert it to a .py file using the MakeUIPy.bat file
-from batch_renamer_ui import Ui_MainWindow 
+from batch_renamer_ui import Ui_BatchRenamer 
 # Recommend you rename this
 import batch_renamer_lib
 
 
 
 
-class BatchRenamerWindow(QMainWindow, Ui_MainWindow):
+class BatchRenamerWindow(QMainWindow, Ui_BatchRenamer):
     def __init__(self):
         # UI Setup
         super().__init__()
-        super(Ui_MainWindow).__init__()
+        super(Ui_BatchRenamer).__init__()
         self.setupUi(self)
         # Connect button to function
         self.pushButtonBrowse.clicked.connect(self.get_filepath)

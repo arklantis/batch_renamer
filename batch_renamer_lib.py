@@ -33,7 +33,7 @@ class BatchRenamer:
         ###############
         # Basic Setup #
         ###############
-        app_title = 'Test'
+        app_title = 'rename_log'
         version_number = '1.0.0'
         # get the path the script was run from, storing with forward slashes
         source_path = os.path.dirname(os.path.realpath(__file__))
