@@ -1,6 +1,6 @@
 # Batch Renamer – PyQt5 GUI Tool
 
-A lightweight GUI tool to batch rename files using a customizable pattern.
+A lightweight, cross-platform GUI tool built with **Python + PyQt5** for batch renaming files. Designed for creatives, editors, and developers needing fast, customizable file renaming via a clean interface.
 
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15.11-brightgreen)
@@ -18,14 +18,25 @@ A lightweight GUI tool to batch rename files using a customizable pattern.
 
 ## ✨ Features
 
-- 🔍 Live preview of renamed filenames
-- 🧩 Customizable: prefix, suffix, numbering style
-- 📂 Drag-and-drop file loading or directory selection
-- 💾 One-click batch rename execution
+- 🧩 Rename with custom prefix, suffix, numbering
+- 🔍 Live filename preview before executing
+- 📂 Load individual files or entire directories
+- 💾 Fast, safe batch processing with error handling
 
 ---
 
-## 🚀 Getting Started
+## 🖼️ UI Preview
+
+> Below is a screenshot of the application in use.  
+> _(Image is located at `screenshots/ui_demo.png` in this repo)_
+
+![UI Screenshot](screenshots/ui_demo.png)
+
+---
+
+## 🚀 Run from Source
+
+To run the application manually:
 
 ```bash
 pip install -r requirements.txt
